@@ -23,8 +23,8 @@ Fetch data from the publicly available API of interpol and make the notices of w
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/activus-d/INTERPOL-MOST-WANTED-INDIVIDUALS](https://github.com/activus-d/INTERPOL-MOST-WANTED-INDIVIDUALS)
+- Live Site URL: [https://activus-d.github.io/INTERPOL-MOST-WANTED-INDIVIDUALS/](https://activus-d.github.io/INTERPOL-MOST-WANTED-INDIVIDUALS/)
 
 ## My process
 
