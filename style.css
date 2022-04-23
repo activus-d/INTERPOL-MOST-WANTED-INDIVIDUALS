@@ -81,6 +81,7 @@ button {
     color: rgba(12,36,12,1);
 }
 button:active {
+    border: none;
     cursor: pointer;
     transform: translateY(0.5rem);
     background: rgb(64, 135, 64);
