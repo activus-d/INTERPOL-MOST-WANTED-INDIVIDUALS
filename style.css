@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+/**************************************
+LAYOUT
+**************************************/
+.logoAndIntro {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+main {
+    display: flex;
+}
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 75%;
+}
+.options {
+    flex-basis: 25%;
+}
+
+/**************************************
+ADDITIONAL STYLES
+**************************************/
+body {
+    background: rgb(40,79,35);
+    background: radial-gradient(circle, rgba(40,79,35,1) 0%, rgba(12,36,12,1) 50%);
+    color: rgb(231, 222, 222);
+    padding: 2rem;
+}
+header {
+    margin-bottom: 2rem;
+}
+.logo{
+    height: 5rem;
+    margin-right: 3rem;
+}
+.introText {
+    margin-left: 3rem;
+    padding-top: 1rem;
+    letter-spacing: 0.3rem;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+}
+
+label {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+main {
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(231, 222, 222);
+    padding: 3rem;
+}
+.options {
+    margin-top: 2rem;
+    position: relative;
+    padding-right: 1rem;
+}
+select option {
+    background: rgb(231, 222, 222);
+    color: rgba(12,36,12,1);
+}
+select:focus {
+    outline: none;
+}
+button {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 10rem;
+    color: rgba(12,36,12,1);
+}
+button:active {
+    cursor: pointer;
+    transform: translateY(0.5rem);
+    background: rgb(64, 135, 64);
+    color: white;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgb(6, 102, 27);
+}
+.profiles {
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+.divStyle {
+    width: 17rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+.divStyle img {
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+}
+
+/**************************************
+STYLES FOR SCREEN SIZE 830PX AND BELOW
+**************************************/
+@media screen and (max-width: 830px) {
+    .profiles {
+        justify-content: space-around;
+    }
+}
+/**************************************
+STYLES FOR SCREEN SIZE 830PX AND BELOW
+**************************************/
+@media screen and (max-width: 830px) {
+    .logoAndIntro {
+        justify-content: space-around;
+    }
+    .introText {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 0;
+    }
+    main {
+        padding: 1rem;
+    }
+    label {
+        font-size: 1.2rem;
+    }
+    #country {
+        width: 10rem;
+    }
+    button {
+        margin-left: 0;
+    }
+}
+/**************************************
+STYLES FOR SCREEN SIZE 350PX AND BELOW
+**************************************/
+@media screen and (max-width: 350px) {
+    main {
+        flex-direction: column;
+    }
+    button {
+        width: 100%;
+    }
+    .introText {
+        text-align: left;
+    }
+    .options {
+        border: none !important;
+        padding-bottom: 1rem;
+    }
+    .profiles {
+        padding-top: 2rem;
+        border-top: 0.5px solid rgb(155, 148, 148);
+    }
+}
+/**************************************
+STYLES FOR SCREEN SIZE 275PX AND BELOW
+**************************************/
+@media screen and (max-width: 275px) {
+    .logoAndIntro {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        width: 10rem;
+        margin-right: 0;
+    }
+    main {
+        padding: 0.5rem;
+    }
+    .introText {
+        text-align: center;
+    }
+    label {
+        width: 100%;
+    }
+    #country {
+        width: 100%;
+    }
+}
+/**************************************
+STYLES FOR SCREEN SIZE 150PX AND BELOW
+**************************************/
+@media screen and (max-width: 150px) {
+    body {
+        padding: 0.5rem;
+    }
+    main {
+        border: none;
+    }
+    .profiles {
+        border: none;
+    }
+}
