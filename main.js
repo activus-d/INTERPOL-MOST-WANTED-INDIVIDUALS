@@ -4,7 +4,6 @@ var country = ``
 //add event listener to listen to each option within the select element
  mySelect.addEventListener('change', () => {
     country = mySelect.options[mySelect.selectedIndex].value
-    alert(country)
  });
 
 

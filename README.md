@@ -55,7 +55,7 @@ I need to lean transition so as bring more life into the styling of subsequent w
 ### Useful resources
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event) - This helped me to understand how to add event listener to select/options element.
 - [W3schools](https://www.w3schools.com/jsref/prop_select_selectedindex.asp) - Also helped me to understand how to add event listener too select/options element.
-- [stackoverflow](https://stackoverflow.com/questions/44107883/plain-javascript-onclick-not-working-on-mobiley) - This helped to solve a bug in my code. The button for the mobile screen size was slow to respond.
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/selectedIndex) - This helped to solve a bug in my code. The options was getting selected upon touch before selecting the needed option from the dropdown thereby affecting the appropriateness of results inputted into the DOM.
 
 ## Author
 - Website - [D.M. Oladele](https://activuscode.hashnode.dev/)
