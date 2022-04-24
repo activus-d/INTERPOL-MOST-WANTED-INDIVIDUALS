@@ -11,6 +11,7 @@ buttonParent.addEventListener("click", function(e) {
     const button = e.target.matches(".button, .button *");
     if (button) { // If child is click
     // Your code here
+    alert(country)
     fetch(`https://ws-public.interpol.int/notices/v1/red?nationality=${country}`)
    .then( res => res.json() )
    .then( rawData => {
