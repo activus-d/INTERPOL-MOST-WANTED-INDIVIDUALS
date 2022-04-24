@@ -8,6 +8,10 @@ html {
 /**************************************
 LAYOUT
 **************************************/
+body {
+
+    min-height: 100vh;
+}
 .logoAndIntro {
     display: flex;
     justify-content: center;
