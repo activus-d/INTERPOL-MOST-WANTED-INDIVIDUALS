@@ -57,7 +57,7 @@ I need to lean transition so as bring more life into the styling of subsequent w
 
 ### Useful resources
 
-- [MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event) - This helped me to understand how to add event listener too select/options element.
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event) - This helped me to understand how to add event listener to select/options element.
 - [W3schools](https://www.w3schools.com/jsref/prop_select_selectedindex.asp) - Also helped me to understand how to add event listener too select/options element.
 - [scrimba](https://scrimba.com/learn/bootcampprimer/creating-elements-in-js-for-loops-createelement-c66BNVUy) - This is an amazing video which cemented my understanding of creating new element on each iteration while looping.
 
