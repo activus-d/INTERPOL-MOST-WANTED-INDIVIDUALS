@@ -5,7 +5,7 @@ mySelect.addEventListener('click', () => {
     country =  mySelect.options[mySelect.selectedIndex].value 
   });
 
-document.querySelector('button').addEventListener('touchstart', function() {
+document.querySelector('button').addEventListener('click', function() {
     fetch(`https://ws-public.interpol.int/notices/v1/red?nationality=${country}`)
     .then( res => res.json() )
     .then( rawData => {
