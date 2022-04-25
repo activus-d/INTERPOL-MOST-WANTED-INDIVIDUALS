@@ -1,6 +1,6 @@
 let elementsArray = []; //new array to take in created elements
-var mySelect = document.querySelector('select')
-var country = ``
+let mySelect = document.querySelector('select')
+let country = ``
 //add event listener to listen to each option within the select element
  mySelect.addEventListener('change', () => {
     country = mySelect.options[mySelect.selectedIndex].value
