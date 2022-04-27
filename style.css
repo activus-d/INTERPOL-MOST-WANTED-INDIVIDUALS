@@ -23,10 +23,10 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-basis: 75%;
+    flex-basis: 80%;
 }
 .options {
-    flex-basis: 25%;
+    flex-basis: 20%;
     position: fixed;
 }
 
@@ -94,17 +94,21 @@ button:active {
 }
 .profiles {
     margin-top: 1rem;
-    padding: 0 1rem;
+    padding: 0 3rem;
 }
 .divStyle {
     width: 17rem;
     text-align: center;
-    margin: 1rem 0;
+    margin: 1rem 1rem 2rem 0;
 }
 .divStyle img {
     width: 8rem;
     height: 8rem;
     margin: 0 auto;
+}
+.divStyle:hover {
+    cursor: pointer;
+    transform: scaleX(1.3) scaleY(1.3);
 }
 /**************************************
 STYLES FOR SCREEN SIZE 1300PX AND BELOW
