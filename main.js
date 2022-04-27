@@ -46,6 +46,7 @@ document.querySelector("button").addEventListener("click", function() {
                newDiv.appendChild(newName)
                newDiv.appendChild(newDob)
                newDiv.classList.add("divStyle")
+              // document.querySelector('main').style.border ='1px solid rgb(231, 222, 222)'
                document.querySelector('.options').style.borderRight = '0.5px solid rgb(155, 148, 148)'
            }
        }
