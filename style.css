@@ -141,9 +141,9 @@ STYLES FOR SCREEN SIZE 830PX AND BELOW
     }
 }
 /**************************************
-STYLES FOR SCREEN SIZE 350PX AND BELOW
+STYLES FOR SCREEN SIZE 400PX AND BELOW
 **************************************/
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     main {
         flex-direction: column;
     }
@@ -157,9 +157,40 @@ STYLES FOR SCREEN SIZE 350PX AND BELOW
         border: none !important;
         padding-bottom: 1rem;
     }
+    .chooseCountry {
+        display: flex
+    }
+    label {
+        width: 33%;
+    }
+    #country {
+        width: 67%;
+    }
     .profiles {
         padding-top: 2rem;
         border-top: 0.5px solid rgb(155, 148, 148);
+    }
+}
+/**************************************
+STYLES FOR SCREEN SIZE 350PX AND BELOW
+**************************************/
+@media screen and (max-width: 350px) {
+    label {
+        width: 39%;
+    }
+    #country {
+        width: 59%;
+    }
+}
+/**************************************
+STYLES FOR SCREEN SIZE 310PX AND BELOW
+**************************************/
+@media screen and (max-width: 310px) {
+    label {
+        width: 35%;
+    }
+    #country {
+        width: 65%;
     }
 }
 /**************************************
@@ -179,6 +210,9 @@ STYLES FOR SCREEN SIZE 275PX AND BELOW
     }
     .introText {
         text-align: center;
+    }
+    .chooseCountry {
+        flex-direction: column;
     }
     label {
         width: 100%;

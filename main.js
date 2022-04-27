@@ -57,7 +57,7 @@ document.querySelector("button").addEventListener("click", function() {
 });
 
 
-//FUNCTION TO DET NAME FROM rawData
+//FUNCTION TO GET NAME FROM rawData
 function getName(obj) {
     return `${obj.forename} ${obj.name}`
 }
